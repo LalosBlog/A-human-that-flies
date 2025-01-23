@@ -4,3 +4,12 @@ body, html {
   padding: 0;
   font-family: Arial, sans-serif;
 }
+<style>
+    body {
+        background-image: url(/Users/luisperez/Documents/MyBlogProject/Background/Background Images/787Approach1-2024-12-31.jpg
+        ');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style>
