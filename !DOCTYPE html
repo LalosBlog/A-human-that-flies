@@ -3,6 +3,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>A Human That Flies</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    marginn: 0
+    background-image: url(787Approach1-2024-12-31.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+h1 {
+   margin-top: 20%
+   font-size: 3rem;
+}
+h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+a {
+  color: #FFD700;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+a:hover {
+    text-decoration: underline;
+}
+  </style>
+</head>
+<body>
+  <h1> A human that flies</h1>
+  <h2> Exploring the skies one story at a time</h2>
+  <a href="blogs.html">Read My Blogs</a>
+</body>
+<html>
+
+
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
