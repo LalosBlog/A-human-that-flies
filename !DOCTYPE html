@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Human That Flies</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="hero">
+    <div class="content">
+      <h1>A Human That Flies</h1>
+      <p>Exploring the world of aviation and the skies beyond.</p>
+      <a href="blog.html" class="btn">Read My Blog</a>
+    </div>
+  </div>
+</body>
+</html>
