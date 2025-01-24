@@ -23,12 +23,14 @@ body.blog-page {
 }
 
 h1.title {
+  font-family: 'Arial', sans-serif; /* Change 'Arial' to your desired font */
+  color: #FFD700; /* Change this to your desired color code */
   position: absolute;
   top: 10px;
   left: 10px;
   font-size: 3rem;
-  color: white;
   margin: 0;
+
 }
 
 h2 {
