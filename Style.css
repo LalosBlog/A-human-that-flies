@@ -16,7 +16,7 @@ body {
 }
 
 body.blog-page {
-  background-image: url('Background Images/ByStorm_7572.jpg'); /* New background image for blog.html */
+  background-image: url('Background Images/ByStorm_7572.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
