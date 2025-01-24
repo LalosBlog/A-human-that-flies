@@ -16,7 +16,7 @@ body {
 h1.title {
   position: absolute;
   top: 3px;
-  left: 3px;
+  left: 5px;
   font-size: 3rem;
   color: white;
 }
@@ -30,7 +30,7 @@ h1.title {
 
 h2 {
   margin-top: 15px;
-  font-size: 2.0rem;
+  font-size: 3.0rem;
 }
 
 a {
