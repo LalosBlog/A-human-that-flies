@@ -63,15 +63,16 @@ a:hover {
 
 .bottom-content {
   position: absolute;
-  top: 85%;
+  top: 75%;
   width: 100%;
-  text-align: right;
+  text-align: center;
 }
 
 .footer-link {
   color: white; /* Set your desired color */
   font-size: 0.8rem; /* Set your desired font size */
   text-decoration: none;
+  text-align: right;
 }
 
 .footer-link:hover {
