@@ -9,8 +9,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: white;  /* Ensure text color is set */
-  text-align: center;  /* Ensure text is centered */
+  color: white;
+  text-align: center;
 }
 
 h1 {
