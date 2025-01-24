@@ -30,17 +30,17 @@ h1.main-title {
   left: 10px;
   font-size: 3rem;
   margin: 0;
+}
 
 h1.blog-title {
-  font-family: 'Arial', sans-serif; /* Change 'Arial' to your desired font */
-  color: #FFD700; /* Change this to your desired color code */
+  font-family: 'Arial', sans-serif; /* Blog page title font */
+  color: #FFD700; /* Blog page title color */
   position: absolute;
   top: 10px;
   left: 10px;
   font-size: 3rem;
   margin: 0;
 }
-
 
 h2 {
   margin-top: 10px;
@@ -71,4 +71,4 @@ a:hover {
   font-size: 0.8rem;
   color: white;
 }
-Public code references from 2 repositories
+
