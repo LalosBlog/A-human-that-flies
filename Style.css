@@ -46,7 +46,9 @@ ul {
 }
 
 li {
-  margin: 10px 0;
+color: #FFD700;
+  font-size: 1rem;
+  margin-left: 10px;
 }
 
 a {
