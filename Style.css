@@ -15,6 +15,19 @@ body {
   position: relative;
 }
 
+h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+
+  
+.bottom-content {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  text-align: center;
+}
+  
+
 body.blog-page {
   background-image: url('Background Images/ByStorm_7572.jpg'); 
   background-size: cover;
