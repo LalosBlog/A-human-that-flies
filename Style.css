@@ -22,7 +22,7 @@ h2 {
   
 .bottom-content {
   position: absolute;
-  bottom: 10%;
+  top: 75%;
   width: 100%;
   text-align: center;
 }
