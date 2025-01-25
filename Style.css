@@ -48,8 +48,11 @@ h1.main-title {
 h1.blog-title {
   font-family: 'Arial', sans-serif; /* Blog page title font */
   color: white; /* Blog page title color */
+  position: absolute;
+  top: 10px;
+  left: 10px;
   font-size: 3rem;
-  margin: 20px 0;
+  margin: 0;
 }
 
 ul {
