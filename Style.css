@@ -22,12 +22,23 @@ body.blog-page {
   background-position: center;
 }
 
-h1.title {
+h1.main-title {
+  font-family: 'Arial', sans-serif; /* Main page title font */
+  color: white; /* Main page title color */
   position: absolute;
   top: 10px;
   left: 10px;
   font-size: 3rem;
-  color: white;
+  margin: 0;
+}
+
+h1.blog-title {
+  font-family: 'Arial', sans-serif; /* Blog page title font */
+  color: #FFD700; /* Blog page title color */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -60,4 +71,3 @@ a:hover {
   font-size: 0.8rem;
   color: white;
 }
-Public code references from 2 repositories
