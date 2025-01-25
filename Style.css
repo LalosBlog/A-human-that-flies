@@ -16,15 +16,15 @@ body {
 }
 
 body.blog-page {
-  background-image: url('Background Images/ByStorm_7572.jpg'); 
+  background-image: url('Background Images/ByStorm_7572.jpg'); /* New background image for blog.html */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-h1.main-title {
- font-family: 'Arial', sans-serif; /* Main page title font */
-  color: white; /* Main page title color */
+h1.blog-title {
+  font-family: 'Arial', sans-serif; /* Change 'Arial' to your desired font */
+  color: #FFD700; /* Change this to your desired color code */
   position: absolute;
   top: 10px;
   left: 10px;
@@ -34,67 +34,31 @@ h1.main-title {
 
 h2 {
   margin-top: 10px;
-  font-size: 1.5rem;
-
-  .bottom-content {
-  position: absolute;
-  top: 75%;
-  width: 100%;
-  text-align: center;
-}
-
-  
-
-h1.blog-title {
-  font-family: 'Arial', sans-serif; /* Blog page title font */
-  color: white; /* Blog page title color */
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 3rem;
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-color: #FFD700;
-  font-size: 1rem;
-  margin-left: 10px;
+  font-size: 2.0rem;
 }
 
 a {
   color: #FFD700;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-.subtitle {
-  color: #FFD700;
-  font-size: 1rem;
-  margin-left: 10px;
+.bottom-content {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  text-align: center;
 }
 
 .footer {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   color: white;
 }
 
-.footer-link {
-  color: white;
-  text-decoration: none;
-}
-
-.footer-link:hover {
-  text-decoration: underline;
-}
