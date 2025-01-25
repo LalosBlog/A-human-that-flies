@@ -16,7 +16,7 @@ body {
 }
 
 body.blog-page {
-  background-image: url('Background Images/ByStorm_7572.jpg'); /* New background image for blog.html */
+  background-image: url('Background Images/ByStorm_7572.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -27,47 +27,57 @@ h1.main-title {
   color: white; /* Main page title color */
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 3rem;
   margin: 0;
 }
 
 h1.blog-title {
   font-family: 'Arial', sans-serif; /* Blog page title font */
-  color: White; /* Blog page title color */
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  color: white; /* Blog page title color */
   font-size: 3rem;
-  margin: 0;
+  margin: 20px 0;
 }
 
-h2 {
-  margin-top: 10px;
-  font-size: 2.0rem;
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
 }
 
 a {
   color: #FFD700;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-.bottom-content {
-  position: absolute;
-  top: 75%;
-  width: 100%;
-  text-align: center;
+.subtitle {
+  color: #FFD700;
+  font-size: 1rem;
+  margin-left: 10px;
 }
 
 .footer {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   color: white;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
 }
