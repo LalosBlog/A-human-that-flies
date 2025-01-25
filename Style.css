@@ -34,7 +34,7 @@ h1.main-title {
 
 h1.blog-title {
   font-family: 'Arial', sans-serif; /* Blog page title font */
-  color: #FFD700; /* Blog page title color */
+  color: black; /* Blog page title color */
   position: absolute;
   top: 10px;
   left: 10px;
@@ -43,7 +43,9 @@ h1.blog-title {
 }
 
 h2 {
+  position: absolute;
   margin-top: 10px;
+   left: 10px;
   font-size: 2.0rem;
 }
 
