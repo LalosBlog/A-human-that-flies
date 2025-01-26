@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Layover with Purpose</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <h1 class="article-title">A Layover with Purpose</h1>
+  <p>Welcome to my first article. This is where you can write about your layover experience with purpose. Share your thoughts, stories, and insights here.</p>
+  <!-- Add more content as needed -->
+  <div class="footer">
+    <p>&copy; <a href="https://www.instagram.com/diogogo_aviation?igsh=MWo0cDRlbWFob2lzNQ==" class="footer-link">Diogo Go</a></p>
+  </div>
+</body>
+</html>
