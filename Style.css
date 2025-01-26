@@ -24,7 +24,7 @@ body.blog-page {
 
 h1.blog-title {
     font-family: 'Arial', sans-serif;
-    color: #FFD700;
+    color: White;
     position: relative; /* Changed from absolute */
     top: 10px;
     left: 10px;
@@ -44,7 +44,7 @@ h2 {
 }
 
 a {
-  color: white;
+  color: #FFD700;
   text-decoration: none;
   font-size: 1.0rem;
 }
