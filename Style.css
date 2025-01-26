@@ -72,4 +72,5 @@ body.article-page {
   background: none; /* Remove the background */
   background-color: white; /* Optional: Set a background color */
   color: black; /* Set text color to black */
+  padding: 20px; /* Add padding */
 }
