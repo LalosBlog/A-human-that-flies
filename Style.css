@@ -68,4 +68,8 @@ a:hover {
   right: 10px;
   font-size: 0.8rem;
 }
-
+body.article-page {
+  background: none; /* Remove the background */
+  background-color: white; /* Optional: Set a background color */
+  color: black; /* Set text color to black */
+}
