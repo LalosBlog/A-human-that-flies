@@ -16,7 +16,7 @@
     async function loadArticle(articlePath) {
       try {
         const response = await fetch(articlePath);
-        if (!response.ok) throw new Error('Network response was not ok');
+        if (!response.ok) throw new Error('Network response was not ok ' + response.statusText);
         const articleHtml = await response.text();
         document.getElementById('article-content').innerHTML = articleHtml;
       } catch (error) {
