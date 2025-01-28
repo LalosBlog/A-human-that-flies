@@ -8,38 +8,24 @@
 </head>
 <body class="article-page">
   <h1 class="article-title">A Layover with Purpose</h1>
-  <p>Welcome to my first article. A Layover with Purpose
-A Layover with Purpose 
-When people ask me, “What’s the best thing about being an airline pilot?” I often hesitate—not because I don’t know the answer, but because there are too many. How do you pick just one when [...]</p>
-  <p>This past year, I lived one of those extraordinary moments—one that captured everything I love about flying.</p>
-  <p>It began on a flight home from a family vacation. Somewhere over the Pacific, nestled in the cocoon of our United Dreamliner, I found myself riveted by a documentary playing on the seat-back screen. A[...]</p>
-  <p>The brothers’ quiet determination struck a chord deep within me. The way they handled each bird, their fingers deftly cleaning wounds or adjusting broken wings, reminded me of a moment from my own p[...]</p>
-  <p>I grew up in the rugged mountains of Central Argentina, where flight wasn’t something you watched—it was something you felt. As a teenager, I soared through the sky on hang gliders, the wind carvi[...]</p>
-  <p>That bond followed me across continents to Colorado, where my wife and I made a home reminiscent of our roots in the Argentine mountains. One morning, from our kitchen window, we saw a group of kids h[...]</p>
-  <p>“We can’t leave it like this,” I told them. Together, we carefully placed the bird in a box and rushed it to the Birds of Prey Foundation in Broomfield, CO. Months later, when the foundation inv[...]</p>
-  <p>So, as I sat on that flight, watching Nadeem and Saud dedicate their lives to the black kites of Delhi, something clicked. I felt the pull of their mission as if it were my own.</p>
-  <p>By an incredible twist of “airline fate,” a few days later, I found myself in Delhi on my very next flight assignment. As our Dreamliner touched down at Indira Gandhi International Airport, the ai[...]</p>
-  <p>On my way to the Wildlife Rescue Foundation, it felt surreal to think that just days earlier, I had been thousands of miles away, captivated by their story on a screen. Now, here I was, about to meet [...]</p>
-  <p>When I arrived, Nadeem greeted me with a warm handshake. A couple of days before the trip, I had reached out to the foundation and asked if they’d mind my visit.</p>
-  <p>“You’ve come a long way to see us,” he said, his voice carrying the lilting rhythm of Delhi’s streets.</p>
-  <p>I watched as he, Saud, and their team moved through their facility. Their work was awe-inspiring. Injured birds were everywhere. Here, a broken wing was splinted. There, a kite was coaxed into eating.[...]</p>
-  <p>“I’ve always dreamed of flying,” Nadeem admitted as we stood on the roof, watching the kites circle the city.</p>
-  <p>His words stayed with me. Flying had been my escape, my passion. Could I give that gift to someone who had spent his life helping creatures take to the skies?</p>
-  <p>The opportunity came months later when Nadeem visited the U.S. for a documentary screening tour. By a stroke of luck, he had a free day while in New York—and so did I.</p>
-  <p>On the day of our planned flight, the sky over Putnam Valley, where Nadeem was staying, was a stubborn gray, heavy with drizzle.</p>
-  <p>“We won’t be able to fly in this,” Nadeem said, his disappointment evident.</p>
-  <p>“Let’s drive west,” I suggested, knowing the weather would change as we headed out. After all, that’s what pilots do—we check the forecast.</p>
-  <p>And the weather did change. As we approached the airfield, the gray gave way to blue, and the sun painted the horizon with gold. Thermals rose lazily from the earth, promising perfect soaring conditio[...]</p>
-  <p>The air was bumpy during the tow, but after releasing the tow plane, it became quiet. We soared together, tracing the thermals as the earth below unfolded like a patchwork quilt of fields and forests.[...]</p>
-  <p>Nadeem sat quietly, absorbing the experience with wide-eyed wonder, his gaze shifting between the horizon and the earth far below.</p>
-  <p>Breaking the silence, I turned to him. “This,” I said, as the glider banked smoothly into another turn, “is how the kites soar.” My words seemed to resonate deeply, giving voice to the emotion[...]</p>
-  <p>With this extraordinary shared experience, I understood what Argentine poet Horacio Ferrer meant by “eternal moments”—flashes of life so profound they linger until your last breath.</p>
-  <p>For me, that flight wasn’t just about sharing my passion with someone new. It was a reminder of why I chose this career—the chance to connect, to inspire, and to experience moments that transcend [...]</p>
-  <p>As pilots, we make sacrifices—missed holidays, sleepless nights, time away
-.</p>
-  <!-- Wonder how the article will show up -->
+  <div id="article-content"></div>
   <div class="footer">
     <p>&copy; <a href="https://www.instagram.com/diogogo_aviation?igsh=MWo0cDRlbWFob2lzNQ==" class="footer-link">Diogo Go</a></p>
   </div>
+  <script>
+    async function loadArticle(articlePath) {
+      try {
+        const response = await fetch(articlePath);
+        if (!response.ok) throw new Error('Network response was not ok');
+        const articleHtml = await response.text();
+        document.getElementById('article-content').innerHTML = articleHtml;
+      } catch (error) {
+        console.error('Error loading article:', error);
+      }
+    }
+
+    // Load the article1.html content
+    loadArticle('article1.html');
+  </script>
 </body>
 </html>
