@@ -8,24 +8,11 @@
 </head>
 <body class="article-page">
   <h1 class="article-title">A Layover with Purpose</h1>
-  <div id="article-content"></div>
+  <p>
+.</p>
+  <!-- Wonder how the article will show up -->
   <div class="footer">
     <p>&copy; <a href="https://www.instagram.com/diogogo_aviation?igsh=MWo0cDRlbWFob2lzNQ==" class="footer-link">Diogo Go</a></p>
   </div>
-  <script>
-    async function loadArticle(articlePath) {
-      try {
-        const response = await fetch(articlePath);
-        if (!response.ok) throw new Error('Network response was not ok ' + response.statusText);
-        const articleHtml = await response.text();
-        document.getElementById('article-content').innerHTML = articleHtml;
-      } catch (error) {
-        console.error('Error loading article:', error);
-      }
-    }
-
-    // Load the article1.html content
-    loadArticle('article1.html');
-  </script>
 </body>
 </html>
