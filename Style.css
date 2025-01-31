@@ -22,21 +22,22 @@ body.blog-page {
   background-position: center;
 }
 
-h1.blog-title {
+body.blog-page h1.blog-title {
     font-family: 'Arial', sans-serif;
-    color: White;
-    position: relative; /* Changed from absolute */
+    color: white;
+    position: relative;
     top: 30px; /* Adjusted to shift down */
     left: 30px; /* Adjusted to shift right */
     font-size: 3rem;
     margin: 0;
-    padding-bottom: 20px; /* Added padding to separate from subtitles */
+    padding-bottom: 20px;
 }
 
-h2 {
+body.blog-page h2 {
     margin-top: 40px; /* Adjusted to shift down */
     margin-left: 30px; /* Adjusted to shift right */
     font-size: 2.0rem;
+}
 
 .article-content {
     margin-top: 10px;
