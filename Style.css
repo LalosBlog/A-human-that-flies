@@ -46,7 +46,12 @@ body.blog-page h2 {
 
 .article-content {
     margin-top: 10px;
-    font-size: 2.0rem;
+    font-size: 2.0rem; /* Increased font size */
+}
+
+.article-content img {
+    width: 50%; /* Decreased image size */
+    height: auto; /* Maintain aspect ratio */
 }
 
 a {
