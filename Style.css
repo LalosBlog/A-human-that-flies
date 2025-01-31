@@ -24,7 +24,7 @@ body.blog-page {
 
 body.blog-page h1.blog-title {
     font-family: 'Arial', sans-serif;
-    color: white;
+    color: black;
     position: relative;
     top: 30px; /* Adjusted to shift down */
     left: 30px; /* Adjusted to shift right */
@@ -45,7 +45,7 @@ body.blog-page h2 {
 }
 
 a {
-  color: #FFD700;
+  color: blue;
   text-decoration: none;
   font-size: 1.0rem;
 }
