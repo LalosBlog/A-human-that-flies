@@ -31,16 +31,16 @@ body.blog-page h1.blog-title {
         1px -1px 0 blue, 
         -1px -1px 0 blue;
     position: relative;
-    top: 30px; /* Adjusted to shift down */
-    left: 30px; /* Adjusted to shift right */
+    top: 35px; /* Adjusted to shift down */
+    left: 35px; /* Adjusted to shift right */
     font-size: 3rem;
     margin: 0;
     padding-bottom: 20px;
 }
 
 body.blog-page h2 {
-    margin-top: 40px; /* Adjusted to shift down */
-    margin-left: 30px; /* Adjusted to shift right */
+    margin-top: 45px; /* Adjusted to shift down */
+    margin-left: 35px; /* Adjusted to shift right */
     font-size: 2.0rem;
     line-height: 1.5; /* Adjusted line spacing */
 }
