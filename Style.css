@@ -31,8 +31,8 @@ body.blog-page h1.blog-title {
         1px -1px 0 blue, 
         -1px -1px 0 blue;
     position: relative;
-    top: 40px; /* Adjusted to shift down */
-    left: 40px; /* Adjusted to shift right */
+    top: 30px; /* Adjusted to shift down */
+    left: 30px; /* Adjusted to shift right */
     font-size: 3rem;
     margin: 0;
     padding-bottom: 20px;
