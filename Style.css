@@ -51,7 +51,7 @@ body.blog-page h2 {
 }
 
 .article-content img {
-    width: 25%; /* Decreased image size */
+    width: 15%; /* Decreased image size */
     height: auto; /* Maintain aspect ratio */
 }
 
