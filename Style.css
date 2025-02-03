@@ -51,10 +51,10 @@ body.blog-page h2 {
 }
 
 .article-content img {
-    width: 5%; /* Decreased image size */
+    width: 100%; /* Set image width to 100% of the parent element's width */
+    max-width: 800px; /* Add a maximum width to avoid overly large images */
     height: auto; /* Maintain aspect ratio */
 }
-
 .article-content p {
     max-width: 800px; /* Set the maximum width for paragraphs */
     margin: 0 auto; /* Center the paragraphs */
