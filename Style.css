@@ -55,6 +55,12 @@ body.blog-page h2 {
     height: auto; /* Maintain aspect ratio */
 }
 
+.article-content p {
+    max-width: 800px; /* Set the maximum width for paragraphs */
+    margin: 0 auto; /* Center the paragraphs */
+    padding: 0 20px; /* Add padding on the sides */
+}
+
 a {
   color: #CCCC00;
   text-decoration: none;
