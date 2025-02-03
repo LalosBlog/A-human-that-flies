@@ -51,12 +51,12 @@ body.blog-page h2 {
 }
 
 .article-content img {
-    width: 10%; /* Decreased image size */
+    width: 5%; /* Decreased image size */
     height: auto; /* Maintain aspect ratio */
 }
 
 .article-content p {
-    max-width: 400px; /* Set the maximum width for paragraphs */
+    max-width: 800px; /* Set the maximum width for paragraphs */
     margin: 0 auto; /* Center the paragraphs */
     padding: 0 20px; /* Add padding on the sides */
 }
