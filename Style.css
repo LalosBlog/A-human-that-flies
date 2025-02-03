@@ -41,17 +41,17 @@ body.blog-page h1.blog-title {
 body.blog-page h2 {
     margin-top: 40px; /* Adjusted to shift down */
     margin-left: 30px; /* Adjusted to shift right */
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     line-height: 1.5; /* Adjusted line spacing */
 }
 
 .article-content {
     margin-top: 10px;
-    font-size: 2.0rem; /* Increased font size */
+    font-size: 2.5rem; /* Increased font size */
 }
 
 .article-content img {
-    width: 15%; /* Decreased image size */
+    width: 10%; /* Decreased image size */
     height: auto; /* Maintain aspect ratio */
 }
 
