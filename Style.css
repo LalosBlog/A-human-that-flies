@@ -56,9 +56,12 @@ body.blog-page h2 {
     height: auto; /* Maintain aspect ratio */
 }
 .article-content p {
-    max-width: 800px; /* Set the maximum width for paragraphs */
-    margin: 0 auto; /* Center the paragraphs */
-    padding: 0 20px; /* Add padding on the sides */
+  font-size: 1.3rem;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.75);
+	font-family: "D-DIN Condensed", Icons;
+	font-style: normal;
+	line-height: 1.3;
 }
 
 a {
