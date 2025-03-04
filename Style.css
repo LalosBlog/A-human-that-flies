@@ -1,5 +1,5 @@
 body, html {
-  font-family: Arial, sans-serif;
+  font-family: "D-DIN Condensed", Icons;
   margin: 5;
   padding: 5;
   height: 100%;
@@ -23,9 +23,9 @@ body.blog-page {
 }
 
 body.blog-page h1.blog-title {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Stanley', Icons;
     color: white;
-  text-shadow: 
+    text-shadow: 
         1px 1px 0 blue, 
         -1px 1px 0 blue, 
         1px -1px 0 blue, 
@@ -39,6 +39,7 @@ body.blog-page h1.blog-title {
 }
 
 body.blog-page h2 {
+    font-family: 'Optician Sans', Icons;
     margin-top: 40px; /* Adjusted to shift down */
     margin-left: 30px; /* Adjusted to shift right */
     font-size: 2.5rem;
@@ -55,13 +56,14 @@ body.blog-page h2 {
     max-width: 800px; /* Add a maximum width to avoid overly large images */
     height: auto; /* Maintain aspect ratio */
 }
+
 .article-content p {
   font-size: 1.3rem;
-	font-weight: 400;
-	color: rgba(0, 0, 0, 0.75);
-	font-family: "D-DIN Condensed", Icons;
-	font-style: normal;
-	line-height: 1.3;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "D-DIN Condensed", Icons;
+  font-style: normal;
+  line-height: 1.3;
 }
 
 a {
@@ -89,9 +91,27 @@ a:hover {
   right: 10px;
   font-size: 0.8rem;
 }
+
 body.article-page {
   background: none; /* Remove the background */
   background-color: white; /* Optional: Set a background color */
   color: black; /* Set text color to black */
   padding: 20px; /* Add padding */
+}
+
+/* Additional styles from Bluprint Protocol site */
+.gallery_image_caption {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.25);
+    font-family: "Monument Grotesk Mono", Icons;
+    font-style: normal;
+    line-height: 1.3;
+}
+
+.content img {
+    float: none;
+    margin-bottom: 1.5em;
 }
