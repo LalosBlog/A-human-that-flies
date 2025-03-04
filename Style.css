@@ -1,3 +1,36 @@
+@font-face {
+    font-family: 'D-DIN Condensed';
+    src: url('path/to/D-DIN-Condensed.woff2') format('woff2'),
+         url('path/to/D-DIN-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stanley';
+    src: url('path/to/Stanley.woff2') format('woff2'),
+         url('path/to/Stanley.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Optician Sans';
+    src: url('path/to/Optician-Sans.woff2') format('woff2'),
+         url('path/to/Optician-Sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Other styles */
+body, html {
+  font-family: "D-DIN Condensed", Icons;
+  margin: 5;
+  padding: 5;
+  height: 100%;
+}
+
+
 body, html {
   font-family: "D-DIN Condensed", Icons;
   margin: 5;
