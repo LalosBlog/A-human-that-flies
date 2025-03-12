@@ -1,1 +1,154 @@
 
+
+@font-face {
+    font-family: 'D-DIN Condensed';
+    src: url('path/to/D-DIN-Condensed.woff2') format('woff2'),
+         url('path/to/D-DIN-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stanley';
+    src: url('path/to/Stanley.woff2') format('woff2'),
+         url('path/to/Stanley.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Optician Sans';
+    src: url('path/to/Optician-Sans.woff2') format('woff2'),
+         url('path/to/Optician-Sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Other styles */
+body, html {
+  font-family: "D-DIN Condensed", Icons;
+  margin: 5;
+  padding: 5;
+  height: 100%;
+}
+
+
+body, html {
+  font-family: "D-DIN Condensed", Icons;
+  margin: 5;
+  padding: 5;
+  height: 100%;
+}
+
+body {
+  background-image: url('Background Images/787Approach1-2024-12-31.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-align: Left;
+  position: relative;
+}
+
+body.blog-page {
+  background-image: url('Background Images/ByStorm_7572.jpg'); /* New background image for blog.html */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body.blog-page h1.blog-title {
+    font-family: 'Stanley', Icons;
+    color: white;
+    text-shadow: 
+        1px 1px 0 blue, 
+        -1px 1px 0 blue, 
+        1px -1px 0 blue, 
+        -1px -1px 0 blue;
+    position: relative;
+    top: 30px; /* Adjusted to shift down */
+    left: 30px; /* Adjusted to shift right */
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added text shadow */
+}
+
+
+body.blog-page h2 {
+    font-family: 'Optician Sans', Icons;
+    margin-top: 40px; /* Adjusted to shift down */
+    margin-left: 30px; /* Adjusted to shift right */
+    font-size: 2.5rem;
+    line-height: 1.5; /* Adjusted line spacing */
+}
+
+.article-content {
+    margin-top: 10px;
+    font-size: 2.5rem; /* Increased font size */
+}
+
+.article-content img {
+    width: 100%; /* Set image width to 100% of the parent element's width */
+    max-width: 800px; /* Add a maximum width to avoid overly large images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.article-content p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "D-DIN Condensed", Icons;
+  font-style: normal;
+  line-height: 1.3;
+}
+
+a {
+  color: #CCCC00;
+  text-decoration: none;
+  font-size: 1.0rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bottom-content {
+  color: White;
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+}
+
+body.article-page {
+  background: none; /* Remove the background */
+  background-color: white; /* Optional: Set a background color */
+  color: black; /* Set text color to black */
+  padding: 20px; /* Add padding */
+}
+
+/* Additional styles from Bluprint Protocol site */
+.gallery_image_caption {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.25);
+    font-family: "Monument Grotesk Mono", Icons;
+    font-style: normal;
+    line-height: 1.3;
+}
+
+.content img {
+    float: none;
+    margin-bottom: 1.5em;
+}
