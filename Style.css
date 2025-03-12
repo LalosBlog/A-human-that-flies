@@ -1,5 +1,3 @@
-
-
 @font-face {
     font-family: 'D-DIN Condensed';
     src: url('path/to/D-DIN-Condensed.woff2') format('woff2'),
@@ -152,3 +150,4 @@ body.article-page {
     float: none;
     margin-bottom: 1.5em;
 }
+
