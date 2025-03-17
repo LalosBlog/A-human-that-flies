@@ -152,3 +152,7 @@ body.article-page {
     margin-bottom: 1.5em;
 }
 
+/* New rule for blog page article content */
+body.blog-page .article-content {
+    font-family: Arial, sans-serif;
+}
