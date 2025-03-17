@@ -82,6 +82,7 @@ body.blog-page h2 {
 }
 
 .article-content {
+    font-family: 'Stanley', Icons;
     margin-top: 10px;
     font-size: 2.5rem; /* Increased font size */
 }
