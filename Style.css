@@ -33,6 +33,11 @@ body, html {
 
 body, html {
   font-family: Arial, sans-serif, Icons;
+text-shadow: 
+        1px 1px 0 blue, 
+        -1px 1px 0 blue, 
+        1px -1px 0 blue, 
+        -1px -1px 0 blue;
   margin: 5;
   padding: 5;
   height: 100%;
