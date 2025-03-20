@@ -38,6 +38,15 @@ body, html {
   height: 100%;
 }
 
+/* Add grey text shadow to main text */
+.main-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+}
+
+/* Add grey text shadow to subtitle */
+.subtitle {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+}
 
 body {
   background-image: url('Background Images/787Approach1-2024-12-31.jpg');
