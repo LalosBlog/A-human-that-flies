@@ -22,6 +22,13 @@
     font-style: normal;
 }
 
+body.article-page {
+  background: none; /* Remove the background */
+  background-color: white; /* Optional: Set a background color */
+  color: black; /* Set text color to black */
+  padding: 20px; /* Add padding */
+}
+
 /* Other styles */
 body, html {
   font-family: "D-DIN Condensed", Icons;
@@ -29,7 +36,6 @@ body, html {
   padding: 5;
   height: 100%;
 }
-
 
 body, html {
   font-family: Arial, sans-serif, Icons;
